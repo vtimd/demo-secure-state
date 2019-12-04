@@ -30,7 +30,7 @@ DEFAULT_LOGGING = {
 
 logging.config.dictConfig(DEFAULT_LOGGING)
 
-api_url_base="https://chapi.cloudhealthtech.com/olap_reports/custom/6116033433314?api_key=62666453-6065-45da-9755-d0ed96911da6"
+api_url_base="https://chapi.cloudhealthtech.com/olap_reports/custom/XXXXXXX?api_key=XXXXXXX"
 headers={'Content-Type': 'application/json'}
 
 def getPolicy():
@@ -87,7 +87,7 @@ if __name__ == '__main__':
     else:
         TOKEN="TTT"
 
-    url = "https://gitlab.com/api/v4/projects/13636938/variables/OVERAGE"
+    url = "https://gitlab.com/api/v4/projects/XXXXXXX/variables/OVERAGE"
 
     githeaders = {}
     githeaders['Content-Type']="application/json"
